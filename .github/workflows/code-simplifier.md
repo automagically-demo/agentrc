@@ -21,7 +21,7 @@ network: defaults
 
 safe-outputs:
   create-pull-request:
-    expires: 1d
+    expires: 3d
     title-prefix: "[code-simplifier] "
     labels: [refactoring, code-quality, automation]
     reviewers: [copilot]

@@ -27,7 +27,7 @@ strict: true
 
 safe-outputs:
   create-issue:
-    expires: 1d
+    expires: 3d
     title-prefix: "[CI Failure Doctor] "
     labels: [ci-failure, automation]
     close-older-issues: true

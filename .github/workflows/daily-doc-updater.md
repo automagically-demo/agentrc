@@ -20,10 +20,11 @@ network: defaults
 
 safe-outputs:
   create-pull-request:
-    expires: 1d
+    expires: 3d
     title-prefix: "[docs] "
     labels: [documentation, automation]
     reviewers: [copilot]
+    auto-merge: true
     draft: false
 
 tools:
